@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial of intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROHITDUBEY777/Intro-to-Backend.git"
+  },
+  "author": "Rohit Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROHITDUBEY777/Intro-to-Backend/issues"
+  },
+  "homepage": "https://github.com/ROHITDUBEY777/Intro-to-Backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.20.2",
+    "nodemon": "^3.1.11"
+  }
+}
